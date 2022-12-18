@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.box1{
+  height: 30vh;
+  border: 2px solid;
+  text-align: center;
+  background-color: rgb(2, 2, 2);
+}
+
+.box1 h2{
+  font-size: 3.5em;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.heading2 h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 3em;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.box3 {
+  position: absolute;
+  display: grid;
+  height: 55em;
+  border: 1px solid;
+  margin-left: 3%;
+  width: 90vw;
+  margin-bottom: 1em;
+}
+
+#loco, #lat, #lon, #time, 
+#winds, #pres, #humi, #windd, #feel{
+  display: flex;
+  margin-left: 1%;
+  font-size: 2em;  
+}
+
+.space{
+  margin-right: 0.5em;
+}
+.newinfo{
+  position: relative;
+  color: #ffffff;
+  display: flex;
+  gap: 4px;
+  margin-top: -3.9%;
+  margin-left: 6%;
+  font-size: 2.1em;
+  margin-bottom: 10px;
+}
